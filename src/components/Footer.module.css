@@ -1,0 +1,19 @@
+* {
+  --bg-color: #191919;
+  --text-color: #ECDBBA;
+  --text-color-alt: #C84B31;
+  --base-color: #2D4263;
+}
+
+footer {
+  height: 12.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+}
+
+footer p {
+  font-weight: bold;
+  color: var(--text-color-alt);
+}

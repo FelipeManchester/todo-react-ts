@@ -1,0 +1,43 @@
+* {
+  --bg-color: #191919;
+  --text-color: #ECDBBA;
+  --text-color-alt: #C84B31;
+  --base-color: #2D4263;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_container label {
+  font-weight: bold;
+  margin-bottom: .4rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 25rem;
+  margin: 0 auto;
+}
+
+form input {
+  padding: .5rem 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0;
+  border: 1px solid var(--bg-color);
+}
+
+form input[type='submit'] {
+  background: var(--base-color);
+  border: var(--base-color);
+  color: var(--text-color);
+  transition: .5s;
+  cursor: pointer;
+}
+
+form input[type='submit']:hover {
+  background: var(--bg-color);
+  border-color: var(--base-color);
+}

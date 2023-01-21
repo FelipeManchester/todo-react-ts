@@ -1,0 +1,17 @@
+* {
+  --bg-color: #191919;
+  --text-color: #ECDBBA;
+  --text-color-alt: #C84B31;
+  --base-color: #2D4263;
+}
+
+main {
+  min-height: 60vh;
+  text-align: center;
+  padding: 2rem;
+}
+
+main h2 {
+  margin-bottom: .8rem;
+  color: var(--text-color-alt)
+}

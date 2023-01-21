@@ -1,0 +1,42 @@
+* {
+  --bg-color: #191919;
+  --text-color: #ECDBBA;
+  --text-color-alt: #C84B31;
+  --base-color: #2D4263;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  max-width: 25rem;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--base-color);
+  padding: 1rem;
+}
+
+
+.details h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.actions svg {
+  margin-bottom: .5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: .5s;
+}
+
+.actions svg:hover {
+  color: var(--text-color-alt);
+}

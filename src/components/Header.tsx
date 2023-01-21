@@ -1,4 +1,3 @@
-import React from 'react';
 // styles
 import styles from './Header.module.css';
 const Header = () => {
@@ -10,10 +9,13 @@ const Header = () => {
   };
 
   const date = today.toLocaleDateString('pt-BR', options);
+  const firstLetter = date[0].toUpperCase();
+  const restOfString = date.slice(1);
+  const capitalFirstLetter = firstLetter + restOfString;
 
   return (
     <header className={styles.header}>
-      <h1>{date}</h1>
+      <h1>{capitalFirstLetter}</h1>
     </header>
   );
 };

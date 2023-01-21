@@ -1,5 +1,11 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'EB Garamond', serif; */
 header {
+  padding: 1rem;
+}
+
+header h1 {
   color: #000;
   text-align: center;
-  padding: 1rem;
+  font-family: 'EB Garamond', serif;
 }

@@ -1,15 +1,5 @@
-* {
-  --bg-color: #191919;
-  --text-color: #ECDBBA;
-  --text-color-alt: #C84B31;
-  --base-color: #2D4263;
-}
-
 header {
-  color: var(--text-color);
+  color: #000;
   text-align: center;
   padding: 1rem;
 }
-
-/* #2D4263 */
-/* #C84B31 */

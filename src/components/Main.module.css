@@ -1,17 +1,15 @@
-* {
-  --bg-color: #191919;
-  --text-color: #ECDBBA;
-  --text-color-alt: #C84B31;
-  --base-color: #2D4263;
-}
-
 main {
+  max-width: 80vw;
   min-height: 60vh;
+  margin: 0 auto;
   text-align: center;
   padding: 2rem;
+  border-radius: 30px;
+  border: 5px solid #DADFEA;
 }
 
-main h2 {
+main h1,
+h2 {
   margin-bottom: .8rem;
-  color: var(--text-color-alt)
+  color: #000;
 }

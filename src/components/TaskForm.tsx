@@ -59,7 +59,6 @@ const TaskForm = ({
   return (
     <div className={styles.input_container}>
       <form className={styles.form} onSubmit={addTaskHandler}>
-        <label htmlFor="title">Título:</label>
         <input
           type="text"
           name="title"
@@ -70,6 +69,7 @@ const TaskForm = ({
         <label htmlFor="level">Prioridade:</label>
         <input
           type="range"
+          max="3"
           name="level"
           onChange={handleChange}
           value={level}

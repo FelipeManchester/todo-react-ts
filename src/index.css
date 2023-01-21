@@ -3,15 +3,10 @@
   margin: 0;
   font-family: 'IBM Plex Mono', sans-serif;
 
-  --bg-color: #191919;
-  --text-color: #ECDBBA;
-  --text-color-alt: #C84B31;
-  --base-color: #2D4263;
-
 }
 
 body {
-  background: var(--bg-color);
+  background: linear-gradient(32deg, rgba(248, 164, 216, 1) 0%, rgba(108, 99, 255, 1) 80%);
 }
 
 .hide {

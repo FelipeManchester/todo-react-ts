@@ -54,6 +54,7 @@ const Main = () => {
           />
         }
       />
+      <h1> What's on your mind today? </h1>
       <div>
         <TaskForm
           btnText="Criar"

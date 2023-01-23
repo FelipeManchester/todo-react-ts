@@ -65,6 +65,7 @@ const TaskForm = ({
           placeholder="Insira a sua tarefa"
           onChange={handleChange}
           value={title}
+          required
         />
         <label htmlFor="level">Prioridade:</label>
         <input

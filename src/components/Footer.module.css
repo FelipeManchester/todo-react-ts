@@ -1,12 +1,20 @@
 footer {
-  height: 12.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #000;
+  height: 7rem;
+  display: grid;
+  place-items: center
 }
 
-footer p {
-  font-weight: bold;
-  color: #000;
+
+footer h3,
+cite {
+  color: #d4d8d4;
+  text-align: center;
+  font-size: .8rem;
+}
+
+a {
+  text-decoration: none;
+  color: #d2d2d2;
+  letter-spacing: 2px;
+  margin-left: 3px;
 }

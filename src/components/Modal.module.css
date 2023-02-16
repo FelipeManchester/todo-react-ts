@@ -1,11 +1,12 @@
 .fade {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
   background: black;
-  opacity: 0.3
+  opacity: 0.3;
+  overflow: hidden;
 }
 
 .modal {
@@ -14,13 +15,14 @@
   left: 0;
   right: 0;
   margin: 0 auto;
-  max-width: 31.25rem;
+  max-width: 55vw;
   height: 25rem;
   z-index: 1;
-  background: #d2d2d2;
+  background: #2c2c2c;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  border-radius: 2rem;
 }
 
 .modal h2 {

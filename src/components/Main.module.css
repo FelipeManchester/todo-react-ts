@@ -1,17 +1,18 @@
 main {
-  max-width: 80vw;
+  max-width: 50vw;
   min-height: 60vh;
   margin: 0 auto;
   text-align: center;
   padding: 2rem;
-  border-radius: 20px;
-  background: #d2d2d2;
+  border-radius: 43px;
+  background: #2c2c2c;
+  box-shadow: 8px 8px 16px #6e9d95;
 }
 
 main h1,
 h2,
 p {
-  margin-bottom: .8rem;
-  color: #433e90;
+  margin-bottom: 0.8rem;
+  color: #7b999c;
   font-family: 'Lato', sans-serif;
 }

@@ -42,18 +42,13 @@ const TaskForm = ({
       const id = Math.floor(Math.random() * 1000);
       const newTask: ITask = { id, title, level };
       setTaskList!([...taskList, newTask]);
-
       setTitle('');
-      setLevel(0);
+      setLevel(1);
     }
   };
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
-    if (e.target.name === 'title') {
-      setTitle(e.target.value);
-    } else {
-      setLevel(parseInt(e.target.value));
-    }
+    if (e.target.name === 'title') setTitle(e.target.value);
   };
 
   return (
@@ -62,18 +57,19 @@ const TaskForm = ({
         <input
           type="text"
           name="title"
-          placeholder="Insira a sua tarefa"
+          placeholder="Ex: Fazer compras"
           onChange={handleChange}
           value={title}
           required
         />
         <label htmlFor="level">Prioridade:</label>
         <input
+          id="range-input"
           type="range"
-          max="3"
+          min="1"
+          max="4"
           name="level"
           onChange={handleChange}
-          value={level}
         />
         <input type="submit" value={btnText} />
       </form>

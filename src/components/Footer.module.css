@@ -1,20 +1,18 @@
 footer {
-  height: 7rem;
+  height: 6rem;
   display: grid;
-  place-items: center
+  place-items: center;
 }
-
 
 footer h3,
 cite {
   color: #d4d8d4;
   text-align: center;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 a {
   text-decoration: none;
   color: #d2d2d2;
-  letter-spacing: 2px;
   margin-left: 3px;
 }

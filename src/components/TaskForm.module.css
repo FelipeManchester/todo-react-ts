@@ -5,8 +5,8 @@
 
 .input_container label {
   font-weight: bold;
-  margin-bottom: .4rem;
-  color: #433e90;
+  margin-bottom: 0.4rem;
+  color: #7b999c;
 }
 
 form {
@@ -17,25 +17,25 @@ form {
 }
 
 form input {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   margin-bottom: 1.5rem;
   border-radius: 15px 0 15px;
   border: none;
-  color: #433e90
+  color: #7b999c;
+  background: #191919;
 }
 
 form input[type='submit'] {
-  transition: .5s;
+  transition: 0.5s;
   cursor: pointer;
   border-radius: 0 15px 0 15px;
-  background: #326ada;
-  color: #d2d2d2;
+  background: #191919;
+  color: #d4d8d4;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: bold;
 }
 
-
 form input[type='submit']:hover {
-  background: #433e90;
+  background: #7b999c;
 }

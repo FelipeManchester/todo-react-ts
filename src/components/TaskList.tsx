@@ -16,7 +16,34 @@ const TaskList = ({ taskList, handleDelete, handleEdit }: Props) => {
           <div key={task.id} className={styles.task}>
             <div className={styles.details}>
               <h4>{task.title}</h4>
-              <p>Prioridade: {task.level}</p>
+              <p>
+                {task.level === 1 && (
+                  <span>
+                    Prioridade: <span className={styles.p1}>Baixa</span>
+                  </span>
+                )}
+              </p>
+              <p>
+                {task.level === 2 && (
+                  <span>
+                    Prioridade: <span className={styles.p2}>Média</span>
+                  </span>
+                )}
+              </p>
+              <p>
+                {task.level === 3 && (
+                  <span>
+                    Prioridade: <span className={styles.p3}>Alta</span>
+                  </span>
+                )}
+              </p>
+              <p>
+                {task.level === 4 && (
+                  <span>
+                    Prioridade: <span className={styles.p4}>Urgente</span>
+                  </span>
+                )}
+              </p>
             </div>
             <div className={styles.actions}>
               <Pencil onClick={() => handleEdit(task)} />

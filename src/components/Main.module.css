@@ -12,7 +12,6 @@ main {
 main h1,
 h2,
 p {
-  margin-bottom: 0.8rem;
   color: #7b999c;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
